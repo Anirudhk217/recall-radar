@@ -1,0 +1,11 @@
+{
+  "name": "recall-radar",
+  "private": true,
+  "type": "module",
+  "description": "See when the FDA recalls something in your pantry or medicine cabinet.",
+  "scripts": {
+    "test": "node --test",
+    "fetch": "node scripts/fetch-recalls.mjs",
+    "start": "npx --yes serve@14.2.4 site"
+  }
+}
